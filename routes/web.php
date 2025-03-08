@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Menambahkan route baru
+Route::get('/hello', function () {
+    return 'Hello World';
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
